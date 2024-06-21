@@ -1,78 +1,78 @@
-.sobre-mim-bg {
+.apresentacao-bg {
   background: var(--c3);
 }
 
-.sobre-mim {
+.apresentacao {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
 }
 
-.sobre-mim-info {
+.apresentacao-info {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.sobre-mim-info h1 {
+.apresentacao-info h1 {
   max-width: 25ch;
   font-size: 3.25rem;
   color: var(--c1);
 }
 
-.sobre-mim-info p {
+.apresentacao-info p {
   max-width: 60ch;
   font-size: 1.375rem;
   color: var(--c1);
 }
 
-.sobre-mim-links {
+.apresentacao-links {
   display: flex;
   gap: 2rem;
 }
 
-.sobre-mim-links a {
+.apresentacao-links a {
   font-size: 1rem;
   font-weight: 700;
   margin-right: 4px;
   color: var(--c1);
 }
 
-.sobre-mim-links a:hover {
+.apresentacao-links a:hover {
   color: var(--c4);
   transition: color .3s;
 }
 
-.sobre-mim-links i {
+.apresentacao-links i {
   color: var(--c5);
 }
 
 @media (max-width: 768px) {
-  .sobre-mim-info h1 {
+  .apresentacao-info h1 {
     max-width: initial;
     font-size: 1.375rem;
   }
-  .sobre-mim-info p {
+  .apresentacao-info p {
     max-width: initial;
     font-size: 1rem;
   }
 }
 
 @media (max-width: 540px) {
-  .sobre-mim {
+  .apresentacao {
     justify-content: center;
     flex-wrap: wrap-reverse;
   }
-  .sobre-mim-img {
+  .apresentacao-img {
     width: 50%;
   }
 }
 
 @media (max-width: 450px) {
-  .sobre-mim-links {
+  .apresentacao-links {
     gap: .5rem;
   }
-  .sobre-mim-links a {
+  .apresentacao-links a {
     font-size: .875rem;
   }
 }
