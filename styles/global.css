@@ -1,0 +1,29 @@
+:root {
+  --c1: #100d05;
+  --c2: #2b2a2a;
+  --c3: #383535;
+  --c4: #747474;
+  --c5: #edb9b9;
+  --w: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+body, h1, h2, h3, p, ul, li, img {
+  margin: 0;
+  padding: 0;
+}
+
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
