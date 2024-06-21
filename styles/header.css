@@ -1,4 +1,4 @@
-.header {
+.header-bg {
   background: var(--c3);
 }
 
@@ -8,7 +8,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  padding: 2rem;
 }
 
 .nav-menu ul {
@@ -21,13 +20,11 @@
   font-size: 1rem;
   font-weight: 600;
   padding: .5rem 0;
-  text-decoration: none;
   color: var(--c1);
 }
 
 .nav-menu ul a:hover {
   color: var(--c5);
-  border-bottom: 1px solid var(--c5);
   transition: color .3s;
 }
 
@@ -50,9 +47,6 @@
 }
 
 @media (max-width: 450px) {
-  .nav-menu {
-    padding: 1rem;
-  }
   .nav-menu a:last-child {
     font-size: .75rem;
   }
