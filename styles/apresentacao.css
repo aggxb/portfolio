@@ -47,6 +47,11 @@
   color: var(--c5);
 }
 
+.apresentacao-links li:hover i {
+  transform: rotate(-45deg);
+  transition: transform .3s;
+}
+
 @media (max-width: 768px) {
   .apresentacao-info h1 {
     max-width: initial;
