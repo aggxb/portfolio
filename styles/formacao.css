@@ -1,0 +1,62 @@
+.formacao-bg {
+  background: var(--c4);
+}
+
+.formacao {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.formacao h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.formacao ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.formacao li {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.formacao-img {
+  display: flex;
+  justify-content: center;
+  background: var(--w);
+  max-height: 286px;
+}
+
+.formacao-img:hover {
+  transform: scale(1.03);
+  transition: transform .3s linear;
+}
+
+.formacao li h3 {
+  font-size: 1.25rem;
+}
+
+.formacao li p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .formacao li h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .formacao ul {
+    grid-template-columns: 1fr;
+  }
+  .formacao li p {
+    font-size: .875rem;
+  }
+}

@@ -55,7 +55,6 @@
 .skills li h3,
 .skills-hobbies li h3 {
   font-size: 1rem;
-  font-weight: 700;
 }
 
 @media (max-width: 950px) {
