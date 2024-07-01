@@ -47,6 +47,9 @@
 }
 
 @media (max-width: 768px) {
+  .formacao h2 {
+    font-size: 1.375rem;
+  }
   .formacao li h3 {
     font-size: 1rem;
   }
