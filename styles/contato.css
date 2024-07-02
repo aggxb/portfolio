@@ -53,8 +53,8 @@
 }
 
 .contato-form form textarea {
-  height: 150px;
-  resize: none;
+  min-height: 150px;
+  resize: vertical;
 }
 
 .contato-form form input[type='submit'] {
