@@ -71,7 +71,7 @@
 
 .contato-form form input[type='submit']:hover {
   transform: scale(1.05);
-  transition: transform .3s;
+  transition: transform .3s linear;
 }
 
 @media (max-width: 768px) {
