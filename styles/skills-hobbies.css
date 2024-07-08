@@ -29,6 +29,14 @@
   gap: 1rem;
 }
 
+.skills ul {
+  animation: showRight .4s linear;
+}
+
+.hobbies ul {
+  animation: showLeft .4s linear;
+}
+
 .skills li,
 .skills-hobbies li {
   display: flex;

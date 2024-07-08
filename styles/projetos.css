@@ -26,9 +26,17 @@
   gap: 1rem;
 }
 
+.item-projeto:first-child {
+  animation: showRight .4s linear;
+}
 
 .item-projeto:nth-child(2) {
   justify-content: space-between;
+  animation: showLeft .4s linear;
+}
+
+.item-projeto:last-child {
+  animation: showRight .4s linear;
 }
 
 .item-projeto > a:hover {
