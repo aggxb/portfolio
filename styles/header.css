@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .header-bg {
   background: var(--c3);
 }
