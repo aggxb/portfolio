@@ -1,9 +1,19 @@
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 88px;
 }
 
 .header-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background: var(--c3);
+  z-index: 1;
+}
+
+main {
+  padding-top: 88px;
 }
 
 .nav-menu {
