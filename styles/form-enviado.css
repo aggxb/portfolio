@@ -1,0 +1,28 @@
+.nav-menu.form-enviado {
+  justify-content: center;
+}
+
+.main-form-enviado {
+  padding-top: 0;
+}
+
+
+.mensagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 88px);
+  padding-top: 0;
+}
+
+.mensagem h1{
+  font-size: 3.75rem;
+  text-align: center;
+  color: var(--c5);
+}
+
+@media(max-width: 768px) {
+  .mensagem h1 {
+    font-size: 2rem;
+  }
+}
